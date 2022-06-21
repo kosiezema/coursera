@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html>
  <head>
@@ -29,3 +30,36 @@
 
  </body>
  </html>
+=======
+<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>mod2</title>
+ <style>
+ *{box-sizing: border-box;}
+ div#container {
+ background-color: grey;
+ border: 1px solid black;
+ position: relative;
+ }
+ #p1{
+ backdround-color: pink;
+ top:0
+ right:0
+ border: solid black;
+ }
+
+ </style>
+ </head>
+ <body>
+ <h1 text-align:center; margin-bottom: 30px;>our menu</h1>
+
+ <div id="container">
+  <p id="p1">chicken</p>
+  our chicken is made to perfection
+ </div>
+
+ </body>
+ </html>
+>>>>>>> cfde0db5a38f3998a6c96e85e1664ce09101c61a
