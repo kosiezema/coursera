@@ -1,3 +1,49 @@
-nav{
-	background-color: black;
+#header-nav{
+background-color: black;
 }
+
+nav{
+	margin: 0;
+	padding: 0;
+}
+
+#text{
+    font-family: italic;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 50px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px
+}
+
+h2{
+    text-align: left;
+}
+
+body{background-color: black;}
+
+#celtics-tile, #nets-tile, #knicks-tile, #philly-tile, #raptors-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: ;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+
+#celtics-tile:hover, #nets-tile:hover, #knicks-tile:hover, #philly-tile:hover, #raptors-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#celtics-tile {
+    background: url('./pictures/celtics.png') no-reapeat;
+    background-position: center;
+}
+
+        
+`		`	
