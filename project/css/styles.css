@@ -41,7 +41,7 @@ body{background-color: black;}
 }
 
 #celtics-tile {
-    background: url('./pictures/celtics.png') no-reapeat;
+    background: url("../pictures/Screenshot 2022-10-24 141325.jpg") no-reapeat;
     background-position: center;
 }
 
