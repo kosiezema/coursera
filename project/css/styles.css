@@ -41,9 +41,17 @@ body{background-color: black;}
 }
 
 #celtics-tile {
-    background: url("../pictures/Screenshot 2022-10-24 141325.jpg") no-reapeat;
+    background-image: url("../pictures/celtics.jpg");
     background-position: center;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-size: ;
 }
 
-        
-`		`	
+#nets-tile {
+    background-image: url("../pictures/nets.jpg");
+    background-position: center;
+    background-size:  ;
+    background-repeat: no-repeat;
+    background-size: ;
+}
