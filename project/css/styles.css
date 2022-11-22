@@ -7,6 +7,10 @@ nav{
 	padding: 0;
 }
 
+div{
+    display: line;
+}
+
 #text{
     font-family: italic;
     font-weight: bold;
@@ -26,32 +30,170 @@ h2{
 
 body{background-color: black;}
 
-#celtics-tile, #nets-tile, #knicks-tile, #philly-tile, #raptors-tile{
+#celtics-tile, #nets-tile, #knicks-tile, #cavaliers-tile, #bulls-tile, #pistons-tile, #philly-tile, #raptors-tile, #pacers-tile, #bucks-tile, #hawks-tile, #hornets-tile, #heat-tile, #magic-tile, #wizards-tile{
     height: 250px;
-    width: 100%;
+    width: 250px;
     margin-bottom: 15px;
     position: relative;
     border-radius: ;
-    border: 2px solid #3f0c1f;
     overflow: hidden;
 }
 
-#celtics-tile:hover, #nets-tile:hover, #knicks-tile:hover, #philly-tile:hover, #raptors-tile:hover{
+
+#celtics-tile:hover, #nets-tile:hover, #knicks-tile:hover, #philly-tile:hover, #raptors-tile:hover, #cavaliers-tile:hover, #bulls-tile:hover, #pistons-tile: hover, #pacers-tile:hover, #bucks-tile: hover, #hawks-tile: hover, #hornets-tile: hover, #heat-tile: hover, #magic-tile: hover, #wizards-tile: hover{
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 #celtics-tile {
-    background-image: url("../pictures/celtics.jpg");
+    background-image: url("../pictures/celtics.png");
     background-position: center;
-    background-size: 250px ;
     background-repeat: no-repeat;
-    background-size: ;
+    background-size: 190px;
 }
 
 #nets-tile {
-    background-image: url("../pictures/nets.jpg");
-    background-position: center;
-    background-size:  ;
+    background-image: url("../pictures/nets.png");
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: ;
+    background-size: 150px;
 }
+
+#knicks-tile {
+    background-image: url("../pictures/knicks.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    }
+
+    #philly-tile {
+    background-image: url("../pictures/philly.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+    #raptors-tile {
+    background-image: url("../pictures/raptors.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+#cavaliers-tile {
+    background-image: url("../pictures/cavaliers.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+#bulls-tile {
+    background-image: url("../pictures/bulls.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+#pistons-tile {
+    background-image: url("../pictures/pistons.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    }
+
+    #pacers-tile {
+    background-image: url("../pictures/pacers.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+    #bucks-tile {
+    background-image: url("../pictures/bucks.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+    #hawks-tile {
+    background-image: url("../pictures/hawks.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+#hornets-tile {
+    background-image: url("../pictures/hornets.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+#heat-tile {
+    background-image: url("../pictures/heat.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    }
+
+    #magic-tile {
+    background-image: url("../pictures/magic.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+    #wizards-tile {
+    background-image: url("../pictures/wizards.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+ #nuggets-tile {
+    background-image: url("../pictures/nuggets.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+#timberwolves-tile {
+    background-image: url("../pictures/timberwolves.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+#blazers-tile {
+    background-image: url("../pictures/blazers.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    }
+
+    #thunder-tile {
+    background-image: url("../pictures/thunder.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+    #jazz-tile {
+    background-image: url("../pictures/jazz.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    }
+
+
+    #celtics-tile span, #nets-tile span, #knicks-tile span, #philly-tile span, #raptors-tile span, #cavaliers-tile span, #bulls-tile span, #pistons-tile span, #pacers-tile span, #bucks-tile span, #hawks-tile span, #hornets-tile span, #heat-tile span, #magic-tile span, #wizards-tile span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        background-color: gray;
+        color: #fff;
+        opacity: .7;
+    }
